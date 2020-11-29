@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 100px;
+}
+
+#addBookmarkEntry {
+    margin: 20px;
+}
+
+#collapsedButtons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div {
+    border: 2px solid black;
+    margin: 50px;
+}
+
+#savedBookmarks {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px; 
+}
+
+#savedBookmarksExpanded {
+    margin: 0 50px;
+    padding-top: 20px;
+}
+
+#bookmarkList {
+    padding-bottom: 50px;
+}
+
+#expandedHeader {
+    display: flex;
+    justify-content: space-around;
+}
+
+#delete {
+    margin: auto 0;
+}
