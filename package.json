@@ -1,0 +1,36 @@
+{
+  "name": "bookmarks-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-unicorn/Daniel-Carcamo-bookmarks-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-unicorn/Daniel-Carcamo-bookmarks-app/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-unicorn/Daniel-Carcamo-bookmarks-app#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1",
+    "webpack-jquery-ui": "^2.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
